@@ -1,21 +1,21 @@
 {
-  "name": "parcel-tmp",
+  "name": "goit-js-hw-09",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://AndriyNich.github.io/parcel-tmp",
+  "homepage": "https://AndriyNich.github.io/goit-js-hw-09",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-tmp/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndriyNich/parcel-tmp.git"
+    "url": "git+https://github.com/AndriyNich/goit-js-hw-09.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndriyNich/parcel-tmp/issues"
+    "url": "https://github.com/AndriyNich/goit-js-hw-09/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"

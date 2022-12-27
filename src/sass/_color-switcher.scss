@@ -1,0 +1,35 @@
+p {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 15px 15px;
+  max-width: 1200px;
+  height: calc(100vh - 30px);
+}
+
+.container__button {
+  margin: 0 auto;
+  padding: 15px 15px;
+  max-width: 200px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container__drop {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  display: block;
+  padding: 5px 20px;
+  font-size: 24px;
+
+  cursor: pointer;
+}

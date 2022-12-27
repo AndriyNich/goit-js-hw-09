@@ -1,0 +1,62 @@
+p {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  padding: 15px 0;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+}
+
+.nav {
+}
+
+button {
+  &:hover:not(:disabled),
+  &:focus:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+.timer__container {
+  margin: 0 auto;
+  width: 300px;
+  padding: 15px 0;
+}
+
+#datetime-picker {
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  gap: 15px;
+  padding: 15px 0;
+}
+
+span {
+  display: block;
+}
+
+.field {
+}
+.value {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+}
+.label {
+}
+
+.notes {
+  margin: 0 auto;
+  max-width: 700px;
+  font-size: 14px;
+  font-style: italic;
+}

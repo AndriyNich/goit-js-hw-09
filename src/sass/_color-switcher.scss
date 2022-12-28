@@ -31,5 +31,7 @@ button {
   padding: 5px 20px;
   font-size: 24px;
 
-  cursor: pointer;
+  &:not(:disabled) {
+    cursor: pointer;
+  }
 }
